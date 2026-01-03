@@ -63,6 +63,11 @@ public:
   }
 };
 
+/*
+Input should be in the form of edges = {{wt, {u, v}}} and sort them according to
+the weight in ascending order
+*/
+
 int kruskals(int V, vector<pair<int, pair<int, int>>> &edges,
              vector<pair<int, int>> &result) {
   int weight = 0;
