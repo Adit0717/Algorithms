@@ -29,7 +29,7 @@ vector<int> bellmanFord(int V, vector<vector<int>> &edges) {
       int wt = ele[2];
 
       if (dist[u] + wt < dist[v]) {
-        dist[v] = dist[u] + wt;
+        return {-1};
       }
     }
   }
