@@ -3,7 +3,7 @@
 
 using namespace std;
 
-int weight(int V, vector<pair<int, pair<int, int>>> &edges,
+int prims(int V, vector<pair<int, pair<int, int>>> &edges,
            vector<pair<int, int>> &result) {
   int weight = 0;
 
